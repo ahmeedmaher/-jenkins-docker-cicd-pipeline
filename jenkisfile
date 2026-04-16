@@ -18,7 +18,7 @@ pipeline {
             steps {
                 stage {
 
-                       sh "docker login docker.io -u ahmedmaher07 -p your-password"
+                       sh "docker login docker.io -u user_name -p your-password"
                         // Push the Docker image to Docker Hub
                         sh "docker push docker.io/ahmedmaher07/docker:jenkis "
                     }
